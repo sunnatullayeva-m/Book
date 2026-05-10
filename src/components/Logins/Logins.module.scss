@@ -1,0 +1,52 @@
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 24px; // Cardlar orasidagi masofa
+    padding: 20px;
+    max-width: 1250px; // Sayt juda kengayib ketmasligi uchun
+    margin: 0 auto;
+
+    .card {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        background: #ffffff;
+        padding: 16px;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 634px;
+        height: 138px;
+
+        .img {
+            width: 72px;
+            height: 108px;
+            margin-top: 12px;
+        }
+
+
+
+        .title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+
+        .dishes {
+            font-size: 12px;
+            color: #808080;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .notes {
+            font-size: 12px;
+            color: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+
+
+
+    }
+
+}
